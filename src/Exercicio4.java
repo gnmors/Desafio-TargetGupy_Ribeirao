@@ -1,19 +1,42 @@
-import java.util.Scanner;
-
 public class Exercicio4 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite o número limite para a sequência de números ímpares chegar: ");
-        int limite = scanner.nextInt();
+        System.out.println("a) " + sequenciaA());
 
-        System.out.println("Sequência de números ímpares: ");
+        System.out.println("b) " + sequenciaB());
 
-        for (int i = 1; i <= limite; i += 2) {
-            System.out.print(i + " ");
-        }
+        System.out.println("c) " + sequenciaC());
 
-        scanner.close();
+        System.out.println("d) " + sequenciaD());
+
+        System.out.println("e) " + sequenciaE());
+
+        System.out.println("f) " + sequenciaF());
+    }
+
+    private static int sequenciaA() {
+        return 7 + 2;
+    }
+
+    private static int sequenciaB() {
+        return 64 * 2;
+    }
+
+    private static int sequenciaC() {
+        return 7 * 7;
+    }
+
+    private static int sequenciaD() {
+        return 8 * 8;
+    }
+
+    private static int sequenciaE() {
+        int a = 5, b = 8;
+        return a + b;
+    }
+
+    private static int sequenciaF() {
+        return 20;
     }
 }
 
